@@ -11,6 +11,7 @@ This framework is the result of a full-scale **process revamp** aimed at enhanci
 *   **Regulatory Mapping:** A granular alignment of the 2004 Law’s provisions with specific monitoring triggers and alert typologies.
 *   **Operational Revamp:** Beyond theoretical compliance, the process was re-engineered to fit a high-paced professional environment, ensuring that every regulatory "must" is met with a clear "how-to" for analysts.
 *   **Conditional Logic Tooling:** To satisfy stringent regulator expectations, I developed a specialized **Conditional Logic Engine (Excel-based)**. This tool automates risk scoring and decision-making paths based on specific transaction parameters, ensuring consistency and auditability that meets the highest supervisory standards.
+<img width="698" height="391" alt="image" src="https://github.com/user-attachments/assets/eb22aaa4-ba02-4112-86cd-99a31907865e" />
 
 ## Professional Context
 This project reflects my experience in taking legacy monitoring systems and transforming them into modern, regulator-approved workflows. By integrating conditional logic and clear data mapping, the resulting process provides a "single source of truth" that satisfies both internal efficiency goals and external regulatory scrutiny.
