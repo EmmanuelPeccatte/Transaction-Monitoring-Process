@@ -131,5 +131,11 @@ Example logic for the "Guidance" cell:
     "✅ Analyst 1 review complete. Analyst 2: Please proceed.", 
     "⚠️ Analyst 2: Please wait. Analyst 1 has not completed their review yet.")
 
+=IF(AND(TransactionAmount > 10000, CustomerRisk = "High"), 
+    "✅ ESCALATE: High-risk customer + large transaction.", 
+    IF(AND(CountryRisk = "High", SuspiciousIndicators = "Yes"), 
+        "✅ ESCALATE: High-risk country + suspicious activity.", 
+        "✅ CLOSE: No escalation required."))
+
 ---
 *Note: This repository contains a generalized version of the process for demonstration purposes. All proprietary data and specific institutional identifiers have been removed.*
